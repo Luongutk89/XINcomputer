@@ -1,0 +1,81 @@
+@media (min-width: 576px) {
+    .container,
+    .container-sm {
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 760px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 1050px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1220px;
+    }
+}
+
+
+/* =======================reponsive============================== */
+
+@media (max-width: 1199.98px) {
+    .row-body .box-logo i {
+        display: none;
+    }
+    #header-bottom .row-button #menu li a {
+        padding: 9px 10px;
+    }
+    #wp-content .list-group-left a {
+        padding: 9.3px 0px;
+        /* font-size: 15.5px; */
+    }
+    #wp-content .list-group-left i {
+        padding-right: 10px;
+        padding-left: 15px;
+    }
+    .list-group-left img {
+        display: none;
+    }
+    #header-bottom .row-button .box-nav-left>i {
+        padding-right: 14px;
+        padding-left: 0px;
+    }
+    #header-bottom .row-button .box-nav-left>span {
+        font-size: 17px;
+    }
+}
+
+
+/* end max-width: 1199.98px */
+
+@media (max-width: 991.98px) {}
+
+
+/* end max-width: 991.98px */
+
+@media (max-width: 767.98px) {}
+
+
+/* end max-width: 767.98px */
+
+@media (max-width: 575.98px) {}
+
+
+/* end max-width: 575.98px */

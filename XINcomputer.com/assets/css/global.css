@@ -1,0 +1,10 @@
+:root {
+    --background: #0984e3;
+    --background-btn: #0984e3;
+    --background-top: #0984e3;
+    --background-menu-hover: #1676c0;
+}
+
+.btn-size-13 {
+    font-size: 13px;
+}
